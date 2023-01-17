@@ -17,3 +17,12 @@ Si estas siguiendo el tutorial talvez te encuentres con los mismos inconveniente
         ej: http://192.168.0.105:5000/api/repositories
         PD. midu lo explica mas adelante en el video
 
+Link a mi repositorio de la clase
+https://github.com/riversdev/rate-repository-app.git
+
+
+
+PARA INSTALAR LA API
+esta en git@github.com:fullstack-hy2020/rate-repository-api.git
+npm install
+npm run start:dev
