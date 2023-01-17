@@ -1,0 +1,19 @@
+ERRORES? TALVEZ ESTO TE AYUDE...
+Si estas siguiendo el tutorial talvez te encuentres con los mismos inconvenientes que yo...
+
+    Si vas a usar el emulador de android y no lo abre desde la terminal con expo.
+    Asegurate de tener algun dispositivo en tu android studio y de haber configurado las variables de entorno.
+    Puedes seguir al pie de la letra la documentacion.
+        https://reactnative.dev/docs/environment-setup
+        https://docs.expo.dev/workflow/android-studio-emulator/
+
+
+    Si instalaste el react-router-native en version 6+ no te va a funcionar el Switch.
+    Usa Routes en su lugar y sigue la documentacion de la v6.
+        ej. de ruta: <Route path='/' element={<RepositoryList />} />
+
+    Si ya iniciaste el backend pero no puedes hacer fetch a la api con http://localhost:5000/api/repositories
+    Usa tu ip en lugar de localhost
+        ej: http://192.168.0.105:5000/api/repositories
+        PD. midu lo explica mas adelante en el video
+
